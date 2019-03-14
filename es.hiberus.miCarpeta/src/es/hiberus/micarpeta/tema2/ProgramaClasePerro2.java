@@ -15,13 +15,14 @@ public class ProgramaClasePerro2 {
         EjemploClasePerro2 toby ;
         toby= new EjemploClasePerro2(); //instancio el objeto toby
         
-        toby.alimentar();
+        //al modificar el método en la clase, arrastra a los objetos esos cambios
+        toby.alimentar(0.5);
         toby.adiestrar();
         
         System.out.println("Grado de obediencia de toby: " + toby.gradoObediencia);
         
         EjemploClasePerro2 linda = new EjemploClasePerro2();
-        linda.alimentar();
+        linda.alimentar(2.5);
         System.out.println("Grado de obediencia de linda: " + linda.gradoObediencia);
     }
     
