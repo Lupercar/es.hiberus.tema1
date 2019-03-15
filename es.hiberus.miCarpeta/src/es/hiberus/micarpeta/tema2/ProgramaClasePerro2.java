@@ -24,6 +24,9 @@ public class ProgramaClasePerro2 {
         EjemploClasePerro2 linda = new EjemploClasePerro2();
         linda.alimentar(2.5);
         System.out.println("Grado de obediencia de linda: " + linda.gradoObediencia);
+        
+        String resultado = toby.pedirLadrar(); 
+        System.out.println(resultado);
     }
     
 }
